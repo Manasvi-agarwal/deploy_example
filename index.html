@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 title="my first form">FORMS :</h1>
+    <form action="post">
+       <p id="first"> <label for="username" >Enter your name</label>
+        <input type="text" id="username" name="username" placeholder="Enter name"></p>
+       <p id="second"> <label for="male" >Male </label>
+        <input type="radio" id="male" name="gender"> 
+        <label for="female">Female </label>
+        <input type="radio" id="female" name="gender"> </p>
+       <div id="fdiv">
+        <label for="city">Choose your city</label>
+        <select name="city" id="city">
+            <option value="bareilly">Bareilly</option>
+            <option value="Patiala">Patiala</option>
+            <option value="Kota">Kota</option>
+        </select>
+       </div>
+       <p >
+      <div id="sdiv" > <label for="username">Enter your comments :- </label> </div> 
+       <p></p>
+      <textarea name="comments" rows="4" cols="50" id="third" >Enter comments here...</textarea>
+        </p>
+       <hr color="black">
+    </form>
+</body>
+</html>
